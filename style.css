@@ -1,9 +1,11 @@
+/* Custom Fonts */
 @font-face {
   font-family: "Figtree";
   src: url("./assets/fonts/static/Figtree-Medium.ttf");
   font-weight: 500;
 }
 
+/* Custom Fonts */
 @font-face {
   font-family: "Figtree";
   src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
@@ -16,6 +18,7 @@ body {
     font-family: "Figtree", sans-serif;
 }
 
+/* Center the card */
 main {
     min-height: 100vh;
     display: flex;
@@ -23,20 +26,42 @@ main {
     align-items: center;
 }
 
+/* Category Label */
+.category {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+
+/* Blog Card Image */
+.blog-card img {
+     width: 100%;
+     height: 180x;
+     border-radius: 10px;
+     object-fit: cover;
+}
+
+/* Blog Card */
 .blog-card {
     background-color: hsl(0, 0%, 100%);
     padding: 24px;
     width: 384px;
+    border: 1px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px 0 black;
 }
 
+/* Main Heading */
 h1 {
     font-weight: 800; 
     font-size: 32px;
     color:  hsl(0, 0%, 7%);
 } 
 
+/* Description Text */
 .description {
     color: hsl(0, 0%, 42%);
     font-size: 16px;
