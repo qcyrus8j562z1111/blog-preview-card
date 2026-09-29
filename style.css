@@ -1,0 +1,17 @@
+/* Page Background */
+body {
+    background-color: #f4d04e;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-card {
+    background-color: white;
+    padding: 24px;
+    width: 384px;
+}
