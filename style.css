@@ -32,14 +32,20 @@ main {
     background-color: hsl(47, 88%, 63%);
     padding: 5px;
     margin-top: 20px;
+    margin-bottom: 0;
     font-weight: 800;
 }
 
+/* Published Date */
+.published {
+    font-weight: 500;
+    color: hsl(0, 0%, 7%);
+}
 
 /* Blog Card Image */
 .blog-card img {
      width: 100%;
-     height: 180x;
+     height: 180px;
      border-radius: 10px;
      object-fit: cover;
 }
@@ -52,12 +58,13 @@ main {
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 8px 8px 0 black;
+    box-sizing: border-box;
 }
 
 /* Main Heading */
 h1 {
     font-weight: 800; 
-    font-size: 32px;
+    font-size: 24px;
     color:  hsl(0, 0%, 7%);
 } 
 
@@ -65,4 +72,5 @@ h1 {
 .description {
     color: hsl(0, 0%, 42%);
     font-size: 16px;
+    line-height: 1.5;
 }
